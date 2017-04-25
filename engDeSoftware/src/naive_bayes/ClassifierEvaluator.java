@@ -45,16 +45,16 @@ public class ClassifierEvaluator
  		if(type)
  		{
  			//classify messages using keywords.
- 	 		nbc.train("dataset/lingMessages" , "dataset/spamMessages" , "dataset/hamKeywords.txt" , "dataset/spamKeywords.txt");
+ 	 		nbc.train("C://Users//gabri//OneDrive//Documentos//NetBeansProjects//EngSoftware//engDeSoftware//dataset//lingMessages" , "C://Users//gabri//OneDrive//Documentos//NetBeansProjects//EngSoftware//engDeSoftware//dataset//spamMessages" , "C://Users//gabri//OneDrive//Documentos//NetBeansProjects//EngSoftware//engDeSoftware//dataset//hamKeywords.txt" , "C://Users//gabri//OneDrive//Documentos//NetBeansProjects//EngSoftware//engDeSoftware//dataset//spamKeywords.txt");
  		}
  		
  		else
  		{
  			//classify messages using all the words that were found in messages.
- 			nbc.train("dataset/lingMessages" , "dataset/spamMessages");
+ 			nbc.train("C://Users//gabri//OneDrive//Documentos//NetBeansProjects//EngSoftware//engDeSoftware//dataset//lingMessages" , "C://Users//gabri//OneDrive//Documentos//NetBeansProjects//EngSoftware//engDeSoftware//dataset//spamMessages");
  		}
  		
- 		Classify("dataset/testMessages");
+ 		Classify("C://Users//gabri//OneDrive//Documentos//NetBeansProjects//EngSoftware//engDeSoftware//dataset//testMessages");
  	}
  	
  	
